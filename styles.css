@@ -1,0 +1,90 @@
+@import url(" http://fonts.googleapis.com/css?family=Amiri&subset=arabic,latin");
+
+body {
+    margin: 0;
+    background-color: #fbe4bd;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Amiri';
+}
+
+header {
+    width: 100%;
+    height: 25vw;
+    max-height: 300px;
+    background: linear-gradient(60deg, #7e5936, #f5cb86);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom-left-radius: -50%;
+    border-bottom-right-radius: 100%;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.title {
+    margin-top: -30px;
+    margin-left: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+h1 {
+    color: #fbe4bd;
+    font-size: 10vw;
+}
+
+.khawi {
+    width: 50%;
+}
+
+button {
+    background: linear-gradient(60deg, #7e5936 , #f5cb86 , #7e5936);
+    width: 50vw;
+    height: 15vh;
+    max-width: 250px;
+    font-size: 250%;
+    font-weight: 800;
+    font-family: "Amiri", serif;
+    border-radius: 100px;
+    border: 0;
+    color: #221c0f;
+}
+
+.count {
+    margin-top: 50px;
+    width: 50vw;
+    height: 15vh;
+    max-width: 280px;
+    background-color: #221c0f;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.count a {
+    font-size: 300%;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
